@@ -7,8 +7,6 @@ Django Kanban project! This project is a Kanban board application built using th
 - [Introduction](#introduction)
 - [Features](#features)
 - [Installation](#installation)
-- [Frontend Setup](#frontend-setup)
-- [Usage](#usage)
 - [Contributing](#contributing)
 
 ## Introduction
@@ -31,7 +29,7 @@ To get started with Django Kanban, follow these steps:
     ```sh
     git clone https://github.com/burakozcn01/django-kanban.git
     cd django-kanban
-    cd inupmt_be
+    cd be
     ```
 
 2. **Create and activate a virtual environment:**
@@ -61,34 +59,6 @@ To get started with Django Kanban, follow these steps:
     ```
 
 7. Open your web browser and navigate to `http://127.0.0.1:8000` to see the application in action.
-
-## Frontend Setup
-
-To set up and run the frontend, follow these steps:
-
-1. **Navigate to the frontend directory:**
-    ```sh
-    cd inupmt_fe
-    ```
-
-2. **Install the necessary dependencies:**
-    ```sh
-    npm install
-    ```
-
-3. **Start the frontend development server:**
-    ```sh
-    npm start
-    ```
-
-4. Open your web browser and navigate to `http://localhost:3000` to see the frontend in action.
-
-## Usage
-
-- **Create a Board:** Start by creating a new board for your project.
-- **Add Columns:** Add columns to your board to represent different stages of your workflow.
-- **Add Tasks:** Create tasks and assign them to columns.
-- **Drag and Drop:** Move tasks between columns as they progress through your workflow.
 
 ## Contributing
 

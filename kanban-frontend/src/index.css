@@ -1,0 +1,51 @@
+.app-container {
+  display: flex;
+}
+
+.main-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 240px; 
+  width: calc(100% - 240px); 
+  transition: all 0.3s ease;
+}
+
+.modal-lg {
+  max-width: 900px;
+}
+
+.modal-header {
+  background-color: #f8f9fa; /* Başlık kısmı için hafif bir arka plan rengi */
+  border-bottom: 1px solid #dee2e6; /* Altına ince bir çizgi */
+}
+
+.modal-title {
+  color: #343a40; /* Başlık için koyu bir renk */
+  font-weight: bold; /* Başlık kalın olacak şekilde */
+}
+
+.modal-body {
+  padding: 2rem; /* Daha geniş padding */
+  font-size: 1.1rem; /* Yazı boyutunu biraz artırın */
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-footer .btn {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+.modal-footer .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
